@@ -47,9 +47,9 @@
     height: 500px;
     background: black;
 }
-/* .hero-container{
-    with:75%;
-} */
+.hero-container{
+    with:70%;
+}
 .img-hero{
     height: 500px;
     position: absolute;
