@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Russo+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.header{
+    height: 60px;
+    font-weight: 700;
+    font-family: "Mulish";
+}
+.autors{
+    border: 2px solid #57D272;
+    padding: 2px;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 350px;
+}
+.logo{
+    height: 30px;
+}
+.header-button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    background: black;
+    border-radius: 40px;
+}
+.hero{
+    height: 500px;
+    background: black;
+}
+.img-hero{
+    height: 500px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+.title-hero{
+    color: white;
+    padding: 150px 0 0 0;
+    font-size: 49px;
+    font-family: Russo One;
+    font-weight: 60;
+}
+.buy-hero{
+    margin: 30px 20px 0 0;
+    border-radius: 40px;
+    padding: 14px 32px;
+    background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+    font-weight: 700;
+    border: none;
+}
+.beAuthordiv{
+    border-radius: 40px;
+    background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+    position: absolute;
+    width: 164.281px;
+    height: 44.667px;
+    top: 418px;
+    left: 284px;
+    z-index: 1;
+}
+.beAuthor-hero{
+    position: relative;
+    margin: 30px 20px 0 0;
+    border-radius: 40px;
+    padding: 12px 30px;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    border: none;
+    z-index: 2;
+
+}
+.auction{
+    height: 1400px;
+}
+.main-auction{
+    height: 330px;
+}
+.title-auction{
+    padding: 60px 0 0 0;
+    font-size: 49px;
+    font-family: Russo One;
+    font-weight: 60;
+}
+.subtitle-auction{
+    position: absolute;
+    left: 380px;
+    top: 634px;
+    font-weight: 700;
+    color: #D13130;
+    padding: 6px 18px;
+    border: 2px solid #D13130;
+    border-radius: 40px;
+}
+.main-auction{
+    display: flex;
+    margin: 20px 0 0 0;
+    gap: 20px;
+}
+.img-auction{
+    height: 330px;
+}
+.inf-auction{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    height: 330px;
+}
+.me{
+    display: flex;
+    border-radius: 18px;
+    background-color: #EDEDF2;
+    padding: 8px 10px;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+    width: 176px;
+}
+.av{
+    height: 36px;
+}
+.also-name{
+    font-weight: 500;
+    font-size: 35px;
+}
+.conditions{
+    display: flex;
+    gap: 10px;
+}
+.bid-money{
+    border-radius: 25px;
+    background-color: #EDEDF2;
+    padding: 20px 25px;
+    height: 140px;
+    width: 200px;
+}
+.bid{
+    font-weight: 900;
+    font-size: 14px;
+    padding: 0 0 10px 0;
+}
+.money{
+    font-size: 34px;
+    font-weight: 700;
+}
+.money-dollars{
+    font-weight: 800;
+    margin: -4px 0 0 0;
+    color: #95959D;
+}
+.bid-time{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 20px 25px;
+    height: 140px;
+}
+.time{
+    font-weight: 900;
+    font-size: 14px;
+    padding: 0 0 10px 0;
+    width: 305px;
+}
+.time-img{
+    position: absolute;
+    top: 835px;
+    left: 920px;
+}
+.time-numbers{
+    font-size: 35px;
+    font-weight: 700;
+    word-spacing: 10px;
+}
+.time-sign{
+    font-size: 12px;
+    font-weight: 900;
+    word-spacing: 43px;
+}
+.make-bid{
+    background: #46F4DB;
+    padding: 15px 0;
+    width: 200px;
+    border-radius:40px; 
+    border: none;
+    font-weight: 900;
+}
+.others-auctions{
+    margin: 60px 0 0 0;
+    font-family: Russo One;
+    font-weight: 20;
+}
+.cards4{
+    display: flex;
+    justify-content: space-between;
+}
+.card-top{
+    text-align: center;
+    background: #EDEDF2;
+    padding: 20px 0;
+    border-radius: 40px 40px 0 0;
+    height: 150px;
+}
+.card{
+    width: 22%;
+    margin: 50px 0 20px 0;
+}
+.card-img{
+    width: 60%;
+}
+.card-bottom{
+    height: 150px;
+    padding: 20px;
+    border-radius:  0 0 40px 40px;
+    background: black;
+    color: white;
+}
+.card-human{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.card-human-av{
+    border-radius: 50%;
+}
+.card-human-also-name{
+    font-weight: 700;
+}
+.money2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #46F4DB;  
+}
+.time2{
+    color: #95959D;
+    margin-top: 5px;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 0 0 10px 0;
+    width: 305px;
+}
+.allauct{
+    background: white;
+    padding: 15px 0;
+    width: 200px;
+    border-radius:40px; 
+    margin: 0 39%;
+    font-weight: 700;
+    border: 3px solid #46F4DB;
+    font-weight: 900;
+}
+.stik{
+    height: 500px;
+    background: black;
+    color: white;
+    padding: 60px 0;
+}
+.stik-title{
+    font-size: 49px;
+    font-family: Russo One;
+    font-weight: 60;
+    width: 50%;
+    display: inline-block;
+}
+.stik0{
+    display: inline-block;
+    margin: 0 10px;
+}
+.stiks{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.stikk{
+    width: 25%;
+}
+.stikkk{
+    width: 45%;
+}
+.stik-buttons{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sb-on{
+    background: #D13130;
+    padding: 3px 13px;
+    border: 2px solid #D13130;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+}
+.sb-off{
+    background: black;
+    padding: 5px 15px;
+    border: 2px solid #D13130;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+}
+.sub{
+    background: #D13130;
+    height: 300px;
+
+}
+.sub-img{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    top: 2460px;
+    left: 500px;
+}
+.sub-title{
+    color: white;
+    padding: 30px 0;
+}
+.input-sub{
+    width: 320px;
+    display: block;
+    height: 40px;
+    margin: 20px 0;
+    padding: 10px 0 10px 20px;
+    border: none;
+    color: white;
+    background: black;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.sub-button{
+    width: 200px;
+    display: block;
+    height: 40px;
+    background: #46F4DB;
+    border: none;
+    color: black;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.agree-text{
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    width: 300px;
+    display: inline;
+    margin: 4px 0 0 5px;
+}
+.agree{
+    margin: 10px 0 0 0;
+    background-color: #D13130;
+}
+.author{
+    height: 550px;
+}
+.author-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 30px 0;
+}
+.author-left, .author-right{
+    width: 47%;
+}
+.author-img{
+    width: 100%;
+    margin: 30px 0;
+}
+.author-title{
+    font-size: 49px;
+    font-family: Russo One;
+    font-weight: 60;
+}
+.author-subtitle{
+    font-size: 16px;
+    font-family: Russo One;
+    font-weight: 60;
+    margin: 20px 0;
+    line-height: 20px;
+}
+.author-text{
+    line-height: 26px;
+}
+.file{
+    height: 300px;
+    background: #EDEDF2;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 40px;
+}
+.plus{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+}
+.plus-text{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -10px;
+    font-size: 60px;
+    font-weight: 800;
+    color: #EDEDF2;
+}
+.file-text{
+    margin: 20px 0 0 0;
+    color: #95959D;
+}
+.author-input{
+    width: 100%;
+    display: block;
+    height: 40px;
+    margin: 20px 0;
+    padding: 10px 0 10px 20px;
+    border: none;
+    color: #717178;
+    background: #EDEDF2;
+    border-radius: 30px;
+}
+.author-button{
+    width: 200px;
+    display: block;
+    height: 40px;
+    background: #46F4DB;
+    border: none;
+    color: black;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.top{
+    padding: 60px 0 30px 0;
+    background: black;
+}
+.top-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.top-title{
+    font-size: 49px;
+    font-family: Russo One;
+    font-weight: 60;
+    color: white;
+}
+.top-left, .top-right{
+    width: 50%;
+}
+.top-card{
+    width: 98%;
+    display: flex;
+    margin: 18px 18px 18px 0;
+    height: 110px;
+    
+}
+.top-card-left{
+    background: #EDEDF2;
+    padding: 10px 0 10px 10px;
+    border-radius: 30px 0 0 30px;
+    width: 22%;
+}
+.top-card-right{
+    background: white;
+    width: 74%;
+    border-radius: 0 30px 30px 0;
+    padding: 15px;
+}
+.top-card-left-img{
+    width: 90%;
+    position: relative;
+    left: 8px;
+}
+.top-card-right-img{
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+.top-name{
+    width: 50%;
+    display: inline;
+    margin: 0 0 0 5px;
+    font-weight: 1000;
+    font-size: 15px;
+}
+.top-alsoname{
+    font-size: 28px;
+    font-weight: 900;
+    margin: 5px 0 2px 0;
+}
+.top-money{
+    font-size: 12px;
+    font-weight: 1000;
+}
+.top-money-dollars{
+    color:#717178;
+}
+.circs{
+    padding: 30px 0;
+    background: #37373E;
+    color: white;
+}
+.circs-container{
+    display: flex;
+    justify-content: space-between;
+}
+.circs-title{
+    font-weight: 900;
+}
+.circ{
+    display: flex;
+    gap: 10px;
+}
+.circs-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer{
+    height: 60px;
+    background: #46F4DB;
+}
+.footer-container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-img{
+    width: 80px;
+}
+.footer-links{
+    display: flex;
+    gap: 25px;
+}
+.footer-a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.final{
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+}
