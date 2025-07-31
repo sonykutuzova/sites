@@ -565,3 +565,155 @@
     line-height: 20px;
 }
 
+/* --- базовый стиль без изменений --- */
+/* Оставляем твой код как есть до container */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* --- Адаптив --- */
+
+.header-container {
+  flex-wrap: wrap;
+  height: auto;
+  padding: 10px 0;
+}
+
+.header-menu {
+  width: auto;
+  margin-right: 0;
+  gap: 20px;
+}
+
+.title-hero {
+  font-size: 36px;
+  padding: 100px 0 0 0;
+}
+
+.img-hero {
+  height: auto;
+  max-width: 100%;
+  position: static;
+}
+
+.hero {
+  height: auto;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.beAuthordiv, .beAuthor-hero {
+  position: static;
+  display: inline-block;
+  margin: 20px auto 0 auto;
+}
+
+.main-auction {
+  flex-direction: column;
+  height: auto;
+}
+
+.img-auction {
+  height: auto;
+  max-width: 100%;
+}
+
+.inf-auction {
+  height: auto;
+}
+
+.subtitle-auction {
+  position: static;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.time-img {
+  position: static;
+  max-width: 100%;
+}
+
+.cards4 {
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.stiks {
+  flex-direction: column;
+}
+
+.stikk, .stikkk, .stik-buttons {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.sub-img {
+  position: static;
+  width: 100%;
+  height: auto;
+}
+
+.author-container {
+  flex-direction: column;
+}
+
+.author-left, .author-right {
+  width: 100%;
+}
+
+.top-cards {
+  flex-direction: column;
+}
+
+.top-card {
+  flex-direction: column;
+  height: auto;
+}
+
+.top-card-left,
+.top-card-right {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.circs-container {
+  flex-direction: column;
+}
+
+.footer-container {
+  flex-direction: column;
+  height: auto;
+  gap: 10px;
+}
+
+/* --- Медиа-запросы для мелких правок --- */
+@media(max-width: 768px) {
+  .title-hero,
+  .title-auction,
+  .stik-title,
+  .author-title,
+  .top-title {
+    font-size: 28px;
+  }
+
+  .header-menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+}
