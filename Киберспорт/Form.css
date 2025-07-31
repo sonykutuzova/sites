@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background: #333333;
+	color: white;
+}
+.form{
+	max-width: 700px;
+	margin: 30px auto;
+	box-shadow: 0px 0px 14px #1a1a1a;
+	padding-bottom: 20px;
+}
+.header{
+	text-align: center;
+	color: white;
+}
+.header-text{
+	padding: 20px 0px;
+	background: #44d7e1;
+}
+.bac{
+	padding: 20px 0px;
+	float: left;
+	width: 10%;
+	background: white;
+	color: black;
+}
+
+fieldset{
+	display: block;
+	margin: 20px 10px;
+	padding: 20px 20px;	
+}
+.name{
+	display: block;
+	outline: none;
+}
+.gender{
+	margin: 20px 10px;
+}
+.wrapper{
+	margin: 20px 10px;
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
+}
+.wrapper-text{
+	margin-right: 15%;
+}
+.wr{
+	width: 35%;
+}
+.textarea {
+	display: block;
+	
+	margin: 0px auto;
+	outline: none;
+	width: 90%;
+	padding: 10px;
+}
+.ta{
+	box-sizing: border-box;
+	padding-bottom: 20px;
+}
+
+.name{
+	width: 100%;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid white;
+	outline: none;
+	height: 30px;
+}
+.button{
+	display: block;
+	width: fit-content;
+	border: none;
+	margin: 20px auto;
+	background: linear-gradient(45deg, #65DAFF, #70FFCB);
+	padding: 10px 40px;
+}

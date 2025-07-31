@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.header{
+	background: #222222;
+}
+.header-container{
+	max-width: 1000px;
+
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	align-items: center;
+}
+.logo-text{
+	margin-left: 4px;
+	
+	color: white;
+	font-size: 25px;
+}
+.header-logo{
+	text-decoration: none;
+}
+.nav-item{
+	text-decoration: none;
+	color: white;
+}
+.header-nav{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	gap: 20px;
+}
+
+.hero{
+	
+	height: 100vh;
+	background-image: url(images/apex.jpg);
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.hero-content{
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 70vh;
+	padding-top: 20vh;
+	width: 50%;
+
+}
+.hero-content-title{
+	color: #555555;
+	font-size: 5vw;
+}
+.hero-content-text{
+	font-size: 25px;
+	color: #555555;
+}
+.hero-content-button{
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	padding: 20px;
+	width: 40%;
+	background-image: linear-gradient(45deg, #4dd2db, #7FFFD4);
+}
+
+
+.about{
+	background: #222222;
+}
+.container{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about-container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.about-card{
+	text-align: center;
+
+}
+.about-card-text{
+	margin-top: 15px;
+	color: #65DAFF;
+	font-size: 20px;
+}
+.about-card-img{
+	width: 100px;
+	height: 100px;
+}
+
+.games{
+	background: #222222;
+	padding-top: 30px;
+	padding-bottom: 10px;
+
+}
+
+.games-container{
+	box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.7);
+	text-align: center;
+	padding: 20px 4px;
+
+}
+
+.title{
+	color: #65DAFF;
+	padding-bottom: 20px;
+}
+.game-card{
+	display: flex;
+
+	justify-content: space-between;
+
+}
+
+.game-card-img1{
+	width: 49%;
+	height: 350px;
+	background: url("images/csgo.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.game-card-img2{
+	width: 49%;
+	height: 350px;
+
+	background: url("images/dota2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.game-card-img3{
+	width: 49%;
+	height: 350px;
+	background: url("images/apex (1).jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.game-card-info{
+	width: 49%;
+	padding: 0px 10px;
+
+}
+
+.game-card-title{
+	color: #7FFFD4;
+	text-align: left;
+	padding: 20px 0px;
+}
+.game-card-text{
+	color: white;
+	padding: 20px 0px;
+	text-align: left;
+	line-height: 30px;
+	font-size: 18px;
+}
+.game-card-hr{
+	background: #7FFFD4;
+	border-color: #7FFFD4;
+	width: 30%;
+}
+
+.game-card-info2{
+	margin-left: auto;
+}
+
+.competitions{
+	background: #222222;
+	text-align: center;
+	padding-top: 30px ;
+
+}
+
+.competitions-text{
+	text-align: center;
+	color: white;
+	padding: 20px 0px;
+
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.contact{
+	background: #222222;
+	text-align: center;
+	padding-top: 30px ;
+	padding-bottom: 30px;
+}
+.contact-container{
+	box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.7);
+	text-align: center;
+	padding: 30px;
+
+}
+.contact-title{
+	padding-bottom: 30px;
+
+}
+.contact-hr{
+	background: white;
+	border-color: white;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.wrapper{
+	background: #65DAFF;
+	margin:20px 0px;
+	padding: 40px 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper-link{
+	padding: 10px 30px;
+	background: black;
+	color: white;
+	text-decoration: none;
+}
+
+.wrapper-title{
+	color: white;
+
+}
+
+@media(max-width: 768px){
+	.hero-content-title{
+		font-size: 10vW;
+	}
+}
+@media(max-width: 600px){
+	.about-container{
+		flex-direction: column;
+	}
+	.hero-content-button{
+		width: 80%;
+	}
+	.game-card-img1{
+		display: none;
+	}
+	.game-card-img2{
+		display: none;
+	}
+	.game-card-img3{
+		display: none;
+	}
+	.game-card-info{
+		width: 100%;
+	}
+}
+@media(max-width: 425px){
+	.header-nav{
+		flex-direction: column;
+	}
+	.header-container{
+		height: 100px;
+		padding: 0 10px;
+	}
+	.wrapper{
+		flex-direction: column;
+	}
+}
