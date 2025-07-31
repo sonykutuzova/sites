@@ -72,7 +72,7 @@
 .beAuthordiv{
     border-radius: 40px;
     background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
-    position: relative;
+    position: absolute;
     width: 164.281px;
     height: 44.667px;
     top: 418px;
