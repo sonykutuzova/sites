@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+.header{
+	padding: 10px 0;
+}
+.header-container{
+	max-width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px auto;
+}
+.header-img{
+	width: 70px;
+	height: 70px;
+}
+.header-menu{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-link{
+	font-size: 20px;
+	text-decoration: none;
+	color: #2A3D8F;
+}
+.hero{
+	background: url(img/innsbruck1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	padding: 250px 0px;
+}
+.hero-container{
+	max-width: 1000px;
+	display: flex;
+	margin: 0px auto;
+	align-items: center;
+}
+.hero-title{
+	color: white;
+	font-size: 60px;
+}
+.about-container{
+	max-width: 1000px;
+	display: flex;
+	margin: 0px auto;
+	flex-direction: column;
+}
+.titles{
+	margin:30px 0;
+	color: darkblue;
+}
+.text{
+	margin: 0 0 30px 0;
+}
+.about-list{
+/*	margin: 30px 0;*/
+	list-style: none;
+}
+.about-list-elem::before {
+  	content: '✓ ';
+}
+.about-num-image{
+	height: 300px;
+	width: 350px;
+	background: url(img/skier.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.about-num{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about-num-inf{
+	display: flex;
+	flex-direction: column;
+}
+.about-num-image-text{
+	font-size: 36px;
+}
+.about-temp{
+	width: 100%;
+}
+.about-title{
+	margin-bottom: 30px;
+}
+.gallery-container{
+	max-width: 1000px;
+	display: flex;
+	margin: 0px auto;
+	flex-direction: column;
+}
+.gallery-elem{
+	min-height: 250px;
+	display: flex;
+	align-items: center;
+	margin-bottom:10px;
+	background: #B5D4C5;
+	color: white;
+}
+.gallery-elem-title{
+	flex-grow: 1;
+	padding: 0 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.gallery-elem-img{
+	max-width: 650px;
+	flex-shrink: 1;
+}
+.map-container{
+	max-width: 1000px;
+	margin: 0px auto;
+}
+.map-map{
+	padding-bottom: 30px;
+}
+.tb{
+	margin: 0 auto 30px auto;
+	max-width: 800px;
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+}
+.tb-head{
+	background: darkblue;
+	color: white;
+}
+.tb-body-column{
+	padding: 2px 5px;
+
+	border: 1px solid black;
+
+}
+.tb-head-cell{
+	padding: 2px 5px;
+
+	border: 1px solid black;
+}
+.end{
+	background: #B5D4C5;
+	padding: 20px 0;
+}
+.end-container{
+	max-width: 800px;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.end-icons{
+	display: flex;
+	gap: 30px;
+}
+
