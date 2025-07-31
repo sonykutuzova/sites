@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300&family=Noto+Sans+Display:wght@600&family=Pattaya&family=Play:wght@700&display=swap');    
+*{
+    margin: 0px;
+	padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+body{
+    background: #AFEEEE;
+}
+.container{
+    width: 50%;
+    margin: 150px auto;
+    text-align: center;
+    line-height: 60px;
+}
+.operators,.level{
+    display: flex;
+    justify-content: space-evenly;
+}
+.operator,.button{
+    width: 20%;
+    height:40px;
+    margin: 10px 0 50px 0;
+    background: #5F9EA0;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+.operator:hover,.button:hover,.select:hover{
+    transform: scale(1.2);
+}
+.select{
+    height: 40px;
+    margin: 10px 0 0 0;
+    background: #5F9EA0;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
