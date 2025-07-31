@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+mark{
+    background: #C2DC49;
+}
+.header{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+}
+.video{
+    overflow: hidden;
+    width: 100%;
+    height: 486px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    background: #E5E1D8;
+    background: url(img/images/section2-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.octaine{
+    width: 100%;
+    margin-bottom: -4px;
+}
+.character-img,.character-desc,.character-bio{
+    width: 30.5%;
+}
+.caption{
+    border-radius: 10px 10px 0px 0px;
+    background: #232323;
+    color: #E5E1D8;
+    line-height: 61.5px;
+    text-align: center;
+}
+
+.character-title{
+    margin: 55px 0 30px 0;
+    font-size: 35px;
+    font-weight: 650;
+    letter-spacing: 10px;
+}
+.charecter-subtitle{
+    margin-bottom: 30px;
+    color: #636363;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+.character-inf{
+    font-size: 9px;
+}
+.character-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: 2.5px;
+    width: 108%;
+}
+.exinf{
+    font-style: italic;
+    font-size: 13px;
+    position: absolute;
+    top: 1125px;
+    left: 570px;
+}
+.character-bio{
+    background: #252525;
+    padding: 120px 0 0 20px;
+    color: #FFF;
+    line-height: 50px;
+}
+.skills{
+    background: url(img/images/section3-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+}
+.skill{
+    background: #252525;
+    width: 28%;
+    height: 320px;
+    margin: 70px 0;
+    padding: 20px;
+    text-align: center;
+}
+.skill-img{
+    width: 80%;
+    margin-bottom: 12px;
+}
+.skill-title{
+    color: #C2DC49;
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-weight: 100;
+}
+.skill-subtitle{
+    color: #FFF;
+    margin-bottom: 16px;
+}
+.skill-inf{
+    color: #FFF;
+    font-size: 14px;
+}
+.special{
+    background: #E5E1D8;
+    padding: 0 0 34px 0;
+}
+.special-title{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 9px;
+    text-align: center;
+    padding: 54px 0 40px 0;
+}
+.special-subtitle{
+    color: #636363;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 7px;
+    text-align: center;
+}
+.special-img{
+    width: 84%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -15px;
+}
+.sign-img{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.special-text, .special-ul, .editional{
+    line-height: 30px; 
+    margin: 0 0 34px 0;
+}
+.special-ul-title{
+    margin-bottom: 30px;
+}
+.special-hr{
+    margin-bottom: 34px;
+}
+.editional-grey{
+    color: #787878;
+}
+.footer{
+    background: #252525;
+    text-align: center;
+    color: #FFF;
+    padding: 60px 0 40px 0;
+}
+.footer-text{
+    padding-bottom: 30px;
+}
+.footer-icon{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
