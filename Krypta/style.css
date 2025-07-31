@@ -8,7 +8,7 @@
     font-family: "Mulish";
 }
 .container{
-    width: 915px;
+    width: 75%;
     margin: 0 auto;
 }
 .header-container{
@@ -47,9 +47,9 @@
     height: 500px;
     background: black;
 }
-.hero-container{
+/* .hero-container{
     with:75%;
-}
+} */
 .img-hero{
     height: 500px;
     position: absolute;
