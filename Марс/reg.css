@@ -1,0 +1,180 @@
+@font-face{
+	font-family: "Gputeks123";
+	src: url("fonts/Gputeks-Regular.woff") format("woff"), url("fonts/Gputeks-Regular.woff2") format("woff2");
+}
+*{
+	font-family: Gputeks123;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.about{
+	background: linear-gradient(180deg, #222836 0%, #293146 100%);
+	height: 100vh;
+	padding-top: 50px;
+}
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.about-title{
+	font-size: 32px;
+	color: white;
+}
+.profession-item{
+	color: #FD9B40;
+	font-size: 32px;
+}
+.about-profession{
+	display: flex;
+	justify-content: space-between;
+}
+.profession-list{
+	list-style-type: none;
+	animation: about-move infinite linear 2.5s;
+}
+.profession-frame{
+	overflow: hidden;
+	height: 48px;
+}
+@keyframes about-move{
+	0%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(-158px);
+	}
+
+}
+.about-cards{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 60px 0 0 0;
+}
+.about-card-img{
+	width: 200px;
+	height: 220px;
+}
+.card{
+	width: 240px;
+	height: 340px;
+	padding: 30px 0 100px 10px;
+	text-align: center;
+	background: #39435C;
+	position: relative;
+}
+.about-card-title{
+	color: white;
+}
+.about-card-inf{
+	color:  #FD9B40;
+}
+details[open]{
+	background: #39435C;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 240px;
+	height: 340px;
+	color: white;
+	text-align: left;
+	padding: 20px 10px 0 10px;
+	font-size: 13px;
+}
+summary{
+	font-size: 20px;
+	color: #FD9B40;
+	margin: 5px 0;
+}
+.info{
+	background: url("img/section-3-bg.svg") bottom/100% no-repeat, 
+    linear-gradient(180deg, #293145 0%, #222837 100%);
+    height: 130vh;
+}
+.info-container{
+	text-align: center;
+}
+.info-text{
+	padding: 40px 0 30px 0;
+	color: white;
+}
+.info-link{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+.info-link-shadow{
+	color: #363D53;
+	font-size: 30px;
+	padding: 0 0 40px 0;
+}
+.info-quotes{
+	text-align: left;
+	background: #353F5A;
+	padding: 80px 60px 30px 60px;
+}
+.quote{
+	color: white;
+}
+.quote-eng{	
+	color: #FFDEB7;
+}
+.author{
+	margin: 20px 0 80px 0;
+	text-align: right;
+	color: #FD9B40;
+}
+.form{
+	height: 170vh;
+	background: #FFB762;
+}
+.form-container{
+	text-align: center;
+	padding: 150px 0 0 0;
+}
+.form-itself{
+	background: #353F5A;
+	height: 680px;
+}
+.form-invite{
+	background:  #202535;
+	color: white;
+	font-size: 32px;
+	padding: 16px 0;
+	margin-bottom: 50px;
+}
+.form-inf{
+	width: 70%;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid #202535;
+	background: #303854;
+	padding: 4px;
+/*	outline: none;*/
+	height: 34px;
+	font-size: 20px;
+	margin: 20px 0;
+}
+.form-accept{
+	width: 30px;
+	height: 30px;
+	display: block;
+	margin: 20px auto;
+	border: 2px solid #202535;
+}
+.checkbox-text{
+	color: white;
+	font-size: 18px;
+}
+.button{
+/*	display: block;
+	width: fit-content;*/
+	border: none;
+	margin: 90px 0 0 0;
+	background: #4B5A82;
+	font-size: 18px;
+	color: white;
+	padding: 20px 100px;
+}
